@@ -1,0 +1,14 @@
+{
+    "categories": {
+        "0": "media",
+        "1": "productivity",
+        "2": "technical"
+    },
+    "demo_page": "https://chakor-plugin-demo-6.bubbleapps.io/version-test/movie_database",
+    "description": "Our TMDB Plugin for Bubble.io empowers developers to effortlessly integrate TMDB's extensive movie and TV data capabilities into their Bubble.io applications. This plugin simplifies the process of setting up movie and TV data retrieval, ensuring a rich user experience for your web applications.\n\n🔗 Demo Page:  https://chakor-plugin-demo-6.bubbleapps.io/version-test/movie_database\n\n\n\n🔗 Editor Link: https://bubble.io/page?id=chakor-plugin-demo-6&test_plugin=1737626030764x654486316281757700_current&tab=Design&name=movie_database&type=page\n\n\n\nOur team is available to solve any problems or questions you may have, please open a thread on our support forum: https://forum.thechakor.com/t/plugin-issues",
+    "image": "//meta-q.cdn.bubble.io/f1737643376641x890536372959742500/images.jfif",
+    "license": "commercial",
+    "link": "https://thechakor.tawk.help/article/movie-database",
+    "name": "Movie Database",
+    "plugin_instructions": "Install the plugin\nEnter your own API key\nGo to \"https://www.themoviedb.org/settings/api/sessions\" and create your own api key\nUse the Action or Data Call\nSet the parameters such as: query, language, release year, page, region\nDisplay the results in repeating group and use in whatever way you want"
+}

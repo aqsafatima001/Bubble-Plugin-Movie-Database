@@ -1,0 +1,85 @@
+{
+    "auth": "none",
+    "calls": {
+        "AAC": {
+            "initialized": true,
+            "method": "get",
+            "name": "Get Movies - Action",
+            "publish_as": "action",
+            "rank": 0,
+            "ret_value": "api.1737626030764x654486316281757700.plugin_api.AAC",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAC\":{\"caption\":\"Get Movies - Action\",\"fields\":{\"_p_page\":{\"ret_btype\":\"number\",\"caption\":\"page\",\"sample_value\":1,\"path\":[\"page\"]},\"_p_results\":{\"ret_btype\":\"list.api.1737626030764x654486316281757700.plugin_api.AAC.results\",\"caption\":\"results\",\"path\":[\"results\"]},\"_p_total_pages\":{\"ret_btype\":\"number\",\"caption\":\"total_pages\",\"sample_value\":1,\"path\":[\"total_pages\"]},\"_p_total_results\":{\"ret_btype\":\"number\",\"caption\":\"total_results\",\"sample_value\":11,\"path\":[\"total_results\"]}}},\"plugin_api.AAC.results\":{\"caption\":\"Get Movies - Action result\",\"fields\":{\"_p_adult\":{\"ret_btype\":\"boolean\",\"caption\":\"adult\",\"sample_value\":false,\"path\":[\"adult\"]},\"_p_backdrop_path\":{\"ret_btype\":\"text\",\"caption\":\"backdrop_path\",\"sample_value\":\"/nb3xI8XI3w4pMVZ38VijbsyBqP4.jpg\",\"path\":[\"backdrop_path\"]},\"_p_genre_ids\":{\"ret_btype\":\"list.number\",\"caption\":\"genre_ids\",\"sample_value\":18,\"path\":[\"genre_ids\"]},\"_p_id\":{\"ret_btype\":\"text\",\"caption\":\"id\",\"sample_value\":872585,\"path\":[\"id\"]},\"_p_original_language\":{\"ret_btype\":\"text\",\"caption\":\"original_language\",\"sample_value\":\"en\",\"path\":[\"original_language\"]},\"_p_original_title\":{\"ret_btype\":\"text\",\"caption\":\"original_title\",\"sample_value\":\"Oppenheimer\",\"path\":[\"original_title\"]},\"_p_overview\":{\"ret_btype\":\"text\",\"caption\":\"overview\",\"sample_value\":\"The story of J. Robert Oppenheimer's role in the development of the atomic bomb during World War II.\",\"path\":[\"overview\"]},\"_p_popularity\":{\"ret_btype\":\"number\",\"caption\":\"popularity\",\"sample_value\":131.516,\"path\":[\"popularity\"]},\"_p_poster_path\":{\"ret_btype\":\"text\",\"caption\":\"poster_path\",\"sample_value\":\"/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg\",\"path\":[\"poster_path\"]},\"_p_release_date\":{\"ret_btype\":\"text\",\"caption\":\"release_date\",\"sample_value\":\"2023-07-21\",\"path\":[\"release_date\"]},\"_p_title\":{\"ret_btype\":\"text\",\"caption\":\"title\",\"sample_value\":\"Oppenheimer\",\"path\":[\"title\"]},\"_p_video\":{\"ret_btype\":\"boolean\",\"caption\":\"video\",\"sample_value\":false,\"path\":[\"video\"]},\"_p_vote_average\":{\"ret_btype\":\"number\",\"caption\":\"vote_average\",\"sample_value\":8.072,\"path\":[\"vote_average\"]},\"_p_vote_count\":{\"ret_btype\":\"number\",\"caption\":\"vote_count\",\"sample_value\":9677,\"path\":[\"vote_count\"]}}}}",
+            "url": "https://api.themoviedb.org/3/search/movie?query=[query]&language=[language]&primary_release_year=[primary_release_year]&page=[page]&region=[region]",
+            "url_params": {
+                "AAD": {
+                    "key": "query",
+                    "value": "oppenheimer"
+                },
+                "AAE": {
+                    "key": "language",
+                    "value": "en-US"
+                },
+                "AAF": {
+                    "key": "primary_release_year",
+                    "value": "2023"
+                },
+                "AAG": {
+                    "key": "page",
+                    "value": "1"
+                },
+                "AAH": {
+                    "key": "region",
+                    "value": "US"
+                }
+            }
+        },
+        "AAJ": {
+            "0": "A",
+            "1": "A",
+            "2": "I",
+            "initialized": true,
+            "method": "get",
+            "name": "Get Movies - Data",
+            "publish_as": "data",
+            "rank": 1,
+            "ret_value": "api.1737626030764x654486316281757700.plugin_api.AAJ",
+            "should_reinitialize": false,
+            "types": "{\"plugin_api.AAJ\":{\"caption\":\"Get Movies - Data\",\"fields\":{\"_p_page\":{\"ret_btype\":\"number\",\"caption\":\"page\",\"sample_value\":1,\"path\":[\"page\"]},\"_p_results\":{\"ret_btype\":\"list.api.1737626030764x654486316281757700.plugin_api.AAJ.results\",\"caption\":\"results\",\"path\":[\"results\"]},\"_p_total_pages\":{\"ret_btype\":\"number\",\"caption\":\"total_pages\",\"sample_value\":1,\"path\":[\"total_pages\"]},\"_p_total_results\":{\"ret_btype\":\"number\",\"caption\":\"total_results\",\"sample_value\":11,\"path\":[\"total_results\"]}}},\"plugin_api.AAJ.results\":{\"caption\":\"Get Movies - Data result\",\"fields\":{\"_p_adult\":{\"ret_btype\":\"boolean\",\"caption\":\"adult\",\"sample_value\":false,\"path\":[\"adult\"]},\"_p_backdrop_path\":{\"ret_btype\":\"text\",\"caption\":\"backdrop_path\",\"sample_value\":\"/nb3xI8XI3w4pMVZ38VijbsyBqP4.jpg\",\"path\":[\"backdrop_path\"]},\"_p_genre_ids\":{\"ret_btype\":\"list.number\",\"caption\":\"genre_ids\",\"sample_value\":18,\"path\":[\"genre_ids\"]},\"_p_id\":{\"ret_btype\":\"text\",\"caption\":\"id\",\"sample_value\":872585,\"path\":[\"id\"]},\"_p_original_language\":{\"ret_btype\":\"text\",\"caption\":\"original_language\",\"sample_value\":\"en\",\"path\":[\"original_language\"]},\"_p_original_title\":{\"ret_btype\":\"text\",\"caption\":\"original_title\",\"sample_value\":\"Oppenheimer\",\"path\":[\"original_title\"]},\"_p_overview\":{\"ret_btype\":\"text\",\"caption\":\"overview\",\"sample_value\":\"The story of J. Robert Oppenheimer's role in the development of the atomic bomb during World War II.\",\"path\":[\"overview\"]},\"_p_popularity\":{\"ret_btype\":\"number\",\"caption\":\"popularity\",\"sample_value\":131.516,\"path\":[\"popularity\"]},\"_p_poster_path\":{\"ret_btype\":\"text\",\"caption\":\"poster_path\",\"sample_value\":\"/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg\",\"path\":[\"poster_path\"]},\"_p_release_date\":{\"ret_btype\":\"text\",\"caption\":\"release_date\",\"sample_value\":\"2023-07-21\",\"path\":[\"release_date\"]},\"_p_title\":{\"ret_btype\":\"text\",\"caption\":\"title\",\"sample_value\":\"Oppenheimer\",\"path\":[\"title\"]},\"_p_video\":{\"ret_btype\":\"boolean\",\"caption\":\"video\",\"sample_value\":false,\"path\":[\"video\"]},\"_p_vote_average\":{\"ret_btype\":\"number\",\"caption\":\"vote_average\",\"sample_value\":8.072,\"path\":[\"vote_average\"]},\"_p_vote_count\":{\"ret_btype\":\"number\",\"caption\":\"vote_count\",\"sample_value\":9677,\"path\":[\"vote_count\"]}}}}",
+            "url": "https://api.themoviedb.org/3/search/movie?query=[query]&language=[language]&primary_release_year=[primary_release_year]&page=[page]&region=[region]",
+            "url_params": {
+                "AAD": {
+                    "key": "query",
+                    "value": "oppenheimer"
+                },
+                "AAE": {
+                    "key": "language",
+                    "value": "en-US"
+                },
+                "AAF": {
+                    "key": "primary_release_year",
+                    "value": "2023"
+                },
+                "AAG": {
+                    "key": "page",
+                    "value": "1"
+                },
+                "AAH": {
+                    "key": "region",
+                    "value": "US"
+                }
+            }
+        }
+    },
+    "human": "TMDB",
+    "said": "cGx1Z2lucy10ZXN0LTMyNjQy",
+    "shared_params": {
+        "bTIoB": {
+            "doc": "Go to \"https://www.themoviedb.org/settings/api/sessions\" and create your own api key",
+            "key": "api_key",
+            "private": true,
+            "visibility": "secret"
+        }
+    },
+    "token_param_name": "api_key"
+}
